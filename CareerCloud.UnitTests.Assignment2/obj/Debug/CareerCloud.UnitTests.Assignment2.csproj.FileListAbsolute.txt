@@ -1,0 +1,11 @@
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\obj\Debug\CareerCloud.UnitTests.Assignment2.csprojAssemblyReference.cache
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\obj\Debug\CareerCloud.UnitTests.Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\CareerCloud.UnitTests.Assignment2.dll.config
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\CareerCloud.UnitTests.Assignment2.dll
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Faker.dll
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Mansi\Source\Repos\CareerCloud.UnitTests.Assignment2\CareerCloud.UnitTests.Assignment2\obj\Debug\CareerCloud.UnitTests.Assignment2.csproj.CopyComplete
