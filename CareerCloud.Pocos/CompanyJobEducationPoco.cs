@@ -17,8 +17,10 @@ namespace CareerCloud.Pocos
         public String Major { get; set; }
         public Int16 Importance { get; set; }
 
+        [Timestamp]
         [Column("Time_Stamp")]
         public Byte[] TimeStamp { get; set; }
 
+        public virtual CompanyJobPoco CompanyJobs { get; set; }
     }
 }

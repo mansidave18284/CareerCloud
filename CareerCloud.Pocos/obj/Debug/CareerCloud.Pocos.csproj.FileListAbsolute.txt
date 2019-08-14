@@ -4,3 +4,5 @@ C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
+C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll.CodeAnalysisLog.xml
+C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll.lastcodeanalysissucceeded

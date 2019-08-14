@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\bin\Debug\CareerCloud.ADODataAccessLayer.dll">
+   <Modules>
+    <Module Name="careercloud.adodataaccesslayer.dll">
+     <Namespaces>
+      <Namespace Name="CareerCloud.ADODataAccessLayer">
+       <Types>
+        <Type Name="ApplicantEducationRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantEducationRepository.cs" Line="53">Object 'conn' can be disposed more than once in method 'ApplicantEducationRepository.Add(params ApplicantEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 53, 56</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantEducationRepository.cs" Line="133">Object 'conn' can be disposed more than once in method 'ApplicantEducationRepository.Remove(params ApplicantEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 133, 136</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantEducationRepository.cs" Line="167">Object 'conn' can be disposed more than once in method 'ApplicantEducationRepository.Update(params ApplicantEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 167, 170</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ApplicantJobApplicationRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantJobApplicationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantJobApplicationRepository.cs" Line="41">Object 'conn' can be disposed more than once in method 'ApplicantJobApplicationRepository.Add(params ApplicantJobApplicationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 41, 44</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantJobApplicationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantJobApplicationRepository.cs" Line="115">Object 'conn' can be disposed more than once in method 'ApplicantJobApplicationRepository.Remove(params ApplicantJobApplicationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 115, 118</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantJobApplicationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantJobApplicationRepository.cs" Line="143">Object 'conn' can be disposed more than once in method 'ApplicantJobApplicationRepository.Update(params ApplicantJobApplicationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 143, 146</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ApplicantProfileRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantProfileRepository.cs" Line="60">Object 'conn' can be disposed more than once in method 'ApplicantProfileRepository.Add(params ApplicantProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 60, 63</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantProfileRepository.cs" Line="146">Object 'conn' can be disposed more than once in method 'ApplicantProfileRepository.Remove(params ApplicantProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 146, 149</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantProfileRepository.cs" Line="186">Object 'conn' can be disposed more than once in method 'ApplicantProfileRepository.Update(params ApplicantProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 186, 189</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ApplicantResumeRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantResumePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantResumeRepository.cs" Line="42">Object 'conn' can be disposed more than once in method 'ApplicantResumeRepository.Add(params ApplicantResumePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 42, 45</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantResumePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantResumeRepository.cs" Line="118">Object 'conn' can be disposed more than once in method 'ApplicantResumeRepository.Remove(params ApplicantResumePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 118, 121</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantResumePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantResumeRepository.cs" Line="146">Object 'conn' can be disposed more than once in method 'ApplicantResumeRepository.Update(params ApplicantResumePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 146, 149</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ApplicantSkillRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantSkillRepository.cs" Line="56">Object 'conn' can be disposed more than once in method 'ApplicantSkillRepository.Add(params ApplicantSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 56, 59</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantSkillRepository.cs" Line="142">Object 'conn' can be disposed more than once in method 'ApplicantSkillRepository.Remove(params ApplicantSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 142, 145</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantSkillRepository.cs" Line="179">Object 'conn' can be disposed more than once in method 'ApplicantSkillRepository.Update(params ApplicantSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 179, 182</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ApplicantWorkHistoryRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.ApplicantWorkHistoryPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantWorkHistoryRepository.cs" Line="65">Object 'conn' can be disposed more than once in method 'ApplicantWorkHistoryRepository.Add(params ApplicantWorkHistoryPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 65, 68</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.ApplicantWorkHistoryPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantWorkHistoryRepository.cs" Line="153">Object 'conn' can be disposed more than once in method 'ApplicantWorkHistoryRepository.Remove(params ApplicantWorkHistoryPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 153, 156</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.ApplicantWorkHistoryPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="ApplicantWorkHistoryRepository.cs" Line="195">Object 'conn' can be disposed more than once in method 'ApplicantWorkHistoryRepository.Update(params ApplicantWorkHistoryPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 195, 198</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyDescriptionRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyDescriptionRepository.cs" Line="45">Object 'conn' can be disposed more than once in method 'CompanyDescriptionRepository.Add(params CompanyDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 45, 48</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyDescriptionRepository.cs" Line="120">Object 'conn' can be disposed more than once in method 'CompanyDescriptionRepository.Remove(params CompanyDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 120, 123</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyDescriptionRepository.cs" Line="150">Object 'conn' can be disposed more than once in method 'CompanyDescriptionRepository.Update(params CompanyDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 150, 153</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyJobDescriptionRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyJobDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobDescriptionRepository.cs" Line="43">Object 'conn' can be disposed more than once in method 'CompanyJobDescriptionRepository.Add(params CompanyJobDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 43, 46</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyJobDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobDescriptionRepository.cs" Line="117">Object 'conn' can be disposed more than once in method 'CompanyJobDescriptionRepository.Remove(params CompanyJobDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 117, 120</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyJobDescriptionPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobDescriptionRepository.cs" Line="145">Object 'conn' can be disposed more than once in method 'CompanyJobDescriptionRepository.Update(params CompanyJobDescriptionPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 145, 148</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyJobEducationRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyJobEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobEducationRepository.cs" Line="42">Object 'conn' can be disposed more than once in method 'CompanyJobEducationRepository.Add(params CompanyJobEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 42, 45</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyJobEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobEducationRepository.cs" Line="116">Object 'conn' can be disposed more than once in method 'CompanyJobEducationRepository.Remove(params CompanyJobEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 116, 119</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyJobEducationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobEducationRepository.cs" Line="144">Object 'conn' can be disposed more than once in method 'CompanyJobEducationRepository.Update(params CompanyJobEducationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 144, 147</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyJobRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyJobPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobRepository.cs" Line="46">Object 'conn' can be disposed more than once in method 'CompanyJobRepository.Add(params CompanyJobPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 46, 49</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyJobPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobRepository.cs" Line="122">Object 'conn' can be disposed more than once in method 'CompanyJobRepository.Remove(params CompanyJobPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 122, 125</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyJobPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobRepository.cs" Line="152">Object 'conn' can be disposed more than once in method 'CompanyJobRepository.Update(params CompanyJobPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 152, 155</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyJobSkillRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyJobSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobSkillRepository.cs" Line="45">Object 'conn' can be disposed more than once in method 'CompanyJobSkillRepository.Add(params CompanyJobSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 45, 48</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyJobSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobSkillRepository.cs" Line="121">Object 'conn' can be disposed more than once in method 'CompanyJobSkillRepository.Remove(params CompanyJobSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 121, 124</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyJobSkillPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyJobSkillRepository.cs" Line="151">Object 'conn' can be disposed more than once in method 'CompanyJobSkillRepository.Update(params CompanyJobSkillPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 151, 154</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyLocationRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyLocationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyLocationRepository.cs" Line="52">Object 'conn' can be disposed more than once in method 'CompanyLocationRepository.Add(params CompanyLocationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 52, 55</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyLocationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyLocationRepository.cs" Line="139">Object 'conn' can be disposed more than once in method 'CompanyLocationRepository.Remove(params CompanyLocationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 139, 142</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyLocationPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyLocationRepository.cs" Line="173">Object 'conn' can be disposed more than once in method 'CompanyLocationRepository.Update(params CompanyLocationPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 173, 176</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompanyProfileRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.CompanyProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyProfileRepository.cs" Line="49">Object 'conn' can be disposed more than once in method 'CompanyProfileRepository.Add(params CompanyProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 49, 52</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.CompanyProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyProfileRepository.cs" Line="136">Object 'conn' can be disposed more than once in method 'CompanyProfileRepository.Remove(params CompanyProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 136, 139</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.CompanyProfilePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="CompanyProfileRepository.cs" Line="168">Object 'conn' can be disposed more than once in method 'CompanyProfileRepository.Update(params CompanyProfilePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 168, 171</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SecurityLoginRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SecurityLoginPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginRepository.cs" Line="70">Object 'conn' can be disposed more than once in method 'SecurityLoginRepository.Add(params SecurityLoginPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 70, 73</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SecurityLoginPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginRepository.cs" Line="174">Object 'conn' can be disposed more than once in method 'SecurityLoginRepository.Remove(params SecurityLoginPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 174, 177</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SecurityLoginPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginRepository.cs" Line="220">Object 'conn' can be disposed more than once in method 'SecurityLoginRepository.Update(params SecurityLoginPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 220, 223</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SecurityLoginsLogRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SecurityLoginsLogPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsLogRepository.cs" Line="46">Object 'conn' can be disposed more than once in method 'SecurityLoginsLogRepository.Add(params SecurityLoginsLogPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 46, 49</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SecurityLoginsLogPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsLogRepository.cs" Line="120">Object 'conn' can be disposed more than once in method 'SecurityLoginsLogRepository.Remove(params SecurityLoginsLogPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 120, 123</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SecurityLoginsLogPoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsLogRepository.cs" Line="150">Object 'conn' can be disposed more than once in method 'SecurityLoginsLogRepository.Update(params SecurityLoginsLogPoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 150, 153</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SecurityLoginsRoleRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SecurityLoginsRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsRoleRepository.cs" Line="40">Object 'conn' can be disposed more than once in method 'SecurityLoginsRoleRepository.Add(params SecurityLoginsRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 40, 43</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SecurityLoginsRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsRoleRepository.cs" Line="112">Object 'conn' can be disposed more than once in method 'SecurityLoginsRoleRepository.Remove(params SecurityLoginsRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 112, 115</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SecurityLoginsRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityLoginsRoleRepository.cs" Line="138">Object 'conn' can be disposed more than once in method 'SecurityLoginsRoleRepository.Update(params SecurityLoginsRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 138, 141</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SecurityRoleRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SecurityRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityRoleRepository.cs" Line="40">Object 'conn' can be disposed more than once in method 'SecurityRoleRepository.Add(params SecurityRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 40, 43</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SecurityRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityRoleRepository.cs" Line="110">Object 'conn' can be disposed more than once in method 'SecurityRoleRepository.Remove(params SecurityRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 110, 113</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SecurityRolePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SecurityRoleRepository.cs" Line="136">Object 'conn' can be disposed more than once in method 'SecurityRoleRepository.Update(params SecurityRolePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 136, 139</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SystemCountryCodeRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SystemCountryCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemCountryCodeRepository.cs" Line="37">Object 'conn' can be disposed more than once in method 'SystemCountryCodeRepository.Add(params SystemCountryCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 37, 40</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SystemCountryCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemCountryCodeRepository.cs" Line="105">Object 'conn' can be disposed more than once in method 'SystemCountryCodeRepository.Remove(params SystemCountryCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 105, 108</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SystemCountryCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemCountryCodeRepository.cs" Line="129">Object 'conn' can be disposed more than once in method 'SystemCountryCodeRepository.Update(params SystemCountryCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 129, 132</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SystemLanguageCodeRepository" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Add(CareerCloud.Pocos.SystemLanguageCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemLanguageCodeRepository.cs" Line="40">Object 'conn' can be disposed more than once in method 'SystemLanguageCodeRepository.Add(params SystemLanguageCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 40, 43</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(CareerCloud.Pocos.SystemLanguageCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemLanguageCodeRepository.cs" Line="110">Object 'conn' can be disposed more than once in method 'SystemLanguageCodeRepository.Remove(params SystemLanguageCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 110, 113</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Update(CareerCloud.Pocos.SystemLanguageCodePoco[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-30 03:01:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer" File="SystemLanguageCodeRepository.cs" Line="136">Object 'conn' can be disposed more than once in method 'SystemLanguageCodeRepository.Update(params SystemLanguageCodePoco[])'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 136, 139</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 136, 139</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

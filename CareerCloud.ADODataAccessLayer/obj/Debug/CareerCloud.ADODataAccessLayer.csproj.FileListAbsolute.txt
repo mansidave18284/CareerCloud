@@ -9,3 +9,5 @@ C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\obj\Debug
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\obj\Debug\CareerCloud.ADODataAccessLayer.csproj.CopyComplete
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\obj\Debug\CareerCloud.ADODataAccessLayer.dll
 C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\obj\Debug\CareerCloud.ADODataAccessLayer.pdb
+C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\bin\Debug\CareerCloud.ADODataAccessLayer.dll.CodeAnalysisLog.xml
+C:\Users\Mansi\source\repos\CareerCloud\CareerCloud.ADODataAccessLayer\bin\Debug\CareerCloud.ADODataAccessLayer.dll.lastcodeanalysissucceeded

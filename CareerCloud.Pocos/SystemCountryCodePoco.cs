@@ -9,11 +9,19 @@ using System.Threading.Tasks;
 namespace CareerCloud.Pocos
 {
     [Table("System_Country_Codes")]
-    public class SystemCountryCodePoco : IPoco
+    public class SystemCountryCodePoco
     {
+        public SystemCountryCodePoco()
+        {
+            ApplicantProfiles = new HashSet<ApplicantProfilePoco>();
+
+            ApplicantWorkHistories = new HashSet<ApplicantWorkHistoryPoco>();
+        }
         [Key]
         public String Code { get; set; }
         public String Name { get; set; }
-        public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistories { get; set; }
+        public virtual ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
     }
 }

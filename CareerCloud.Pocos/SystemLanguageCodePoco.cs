@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 namespace CareerCloud.Pocos
 {
     [Table("System_Language_Codes")]
-    public class SystemLanguageCodePoco : IPoco
+    public class SystemLanguageCodePoco
+        //: IPoco
     {
         [Key]
         public String LanguageID { get; set; }
@@ -17,6 +18,8 @@ namespace CareerCloud.Pocos
 
         [Column("Native_Name")]
         public String NativeName { get; set; }
-        public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+      //  public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public virtual ICollection<CompanyDescriptionPoco> CompanyDescriptions { get; set; }
     }
 }

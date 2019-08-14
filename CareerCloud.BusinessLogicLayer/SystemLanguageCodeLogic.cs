@@ -8,26 +8,45 @@ using System.Threading.Tasks;
 
 namespace CareerCloud.BusinessLogicLayer
 {
-    public class SystemLanguageCodeLogic : BaseLogic<SystemLanguageCodePoco>
+    public class SystemLanguageCodeLogic
     {
+        private IDataRepository<SystemLanguageCodePoco> _repository;
 
-        public SystemLanguageCodeLogic(IDataRepository<SystemLanguageCodePoco> repository) : base(repository)
+        public SystemLanguageCodeLogic(IDataRepository<SystemLanguageCodePoco> repository)
         {
+            _repository = repository;
         }
 
-        public override void Add(SystemLanguageCodePoco[] pocos)
+        public SystemLanguageCodePoco Get(string code)
+        {
+            return _repository.GetSingle(c => c.LanguageID == code);
+        }
+
+        public List<SystemLanguageCodePoco> GetAll()
+        {
+            IList<SystemLanguageCodePoco> pocos = _repository.GetAll();
+            return pocos.ToList();
+        }
+
+        public void Add(SystemLanguageCodePoco[] pocos)
         {
             Verify(pocos);
-            base.Add(pocos);
+            _repository.Add(pocos);
         }
 
-        public override void Update(SystemLanguageCodePoco[] pocos)
+        public void Update(SystemLanguageCodePoco[] pocos)
         {
             Verify(pocos);
-            base.Update(pocos);
+            _repository.Update(pocos);
         }
 
-        protected override void Verify(SystemLanguageCodePoco[] pocos)
+        public void Delete(SystemLanguageCodePoco[] pocos)
+        {
+            Verify(pocos);
+            _repository.Remove(pocos);
+        }
+
+        protected void Verify(SystemLanguageCodePoco[] pocos)
         {
             List<ValidationException> exceptions = new List<ValidationException>();
 
